@@ -53,23 +53,23 @@ while True:
                     id19 = int(id)
                     cy19 = cy 
             if cx4 < cx3:
-                cv2.putText(img,'thumb' , (10, 120), cv2.FONT_HERSHEY_PLAIN, 1.5,
+                cv2.putText(img,'poong' , (10, 120), cv2.FONT_HERSHEY_PLAIN, 1.5,
                 (140,85,48), 3)
                 Nfing = Nfing + 1
             if cy8 < cy7:
-                cv2.putText(img,'index' , (110, 120), cv2.FONT_HERSHEY_PLAIN, 1.5,
+                cv2.putText(img,'che' , (110, 120), cv2.FONT_HERSHEY_PLAIN, 1.5,
                 (140,85,48), 3)
                 Nfing = Nfing + 1
             if cy12 < cy11:
-                cv2.putText(img,'middle' , (210, 120), cv2.FONT_HERSHEY_PLAIN, 1.5,
+                cv2.putText(img,'grag' , (210, 120), cv2.FONT_HERSHEY_PLAIN, 1.5,
                 (140,85,48), 3)
                 Nfing = Nfing + 1
             if cy16 < cy15:
-                cv2.putText(img,'ring' , (310, 120), cv2.FONT_HERSHEY_PLAIN, 1.5,
+                cv2.putText(img,'nang' , (310, 120), cv2.FONT_HERSHEY_PLAIN, 1.5,
                 (140,85,48), 3)
                 Nfing = Nfing + 1
             if cy20 < cy19:
-                cv2.putText(img,'pinky' , (410, 120), cv2.FONT_HERSHEY_PLAIN, 1.5,
+                cv2.putText(img,'koy' , (410, 120), cv2.FONT_HERSHEY_PLAIN, 1.5,
                 (140,85,48), 3)
                 Nfing = Nfing + 1
                     
